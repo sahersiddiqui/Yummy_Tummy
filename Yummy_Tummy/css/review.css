@@ -1,0 +1,27 @@
+.review{
+	border-radius: 0px 50px 0px 50px;
+	background-color: white;
+	height: auto;
+	min-height: 180px;
+	width: 330px;
+	float: left;
+	//border:1px solid red;
+	margin:13px;
+	text-align: center;
+	opacity: 0.8;
+	padding-top: 20px;
+
+}
+.review p{
+	font-family: Segoe Print;
+		font-size: 18px;
+}
+.review h2{
+	font-family: cursive;
+	color: brown;
+}
+#content{
+	height: auto;
+	background-image: url('/images/back.jpg');
+	height: 700px;
+}

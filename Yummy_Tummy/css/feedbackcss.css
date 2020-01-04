@@ -1,0 +1,58 @@
+#feedbackBtn{
+    height: 50px;
+    width: 100px;
+}
+#feedbackBtn > input{
+    height: 35px;
+    width: 70px;
+    position: fixed;
+    top:100px;
+    left:95%;
+    background-color: lightgreen;
+    color: white;
+    border:0;
+    box-shadow: 0px 0px 10px green inset;
+    border-radius: 10px 0px 0px 10px;
+}
+#feedback{
+    box-shadow: 0px 0px 150px gray inset;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height:auto;
+    width:300px;
+    padding: 20px;
+    position: fixed;
+    top:100px;
+    left:500px;
+    background-color: white;
+   visibility: hidden;
+   text-align: center;
+}
+#feedback h1
+{
+    width:95%;
+    float:left;
+    text-align: center;
+    color:gray;
+    margin:0;
+    font-family:fantasy;
+}
+#feedback textarea{
+    resize: none;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#feedback input{
+    height:30px;
+    width: 250px;
+    border-radius: 5px;
+    border:1px solid gray;
+    text-indent: 10px;
+}
+#feedback p i{
+    color:black;
+    float:left;
+    font-size: 30px;
+}

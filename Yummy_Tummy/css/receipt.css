@@ -1,0 +1,54 @@
+#content{
+	margin: 0px auto;
+	width: 1000px;
+	background-color: white;
+	background-image: url('../images/salad.png');
+	background-size: cover;
+	padding-top: 50px;
+}
+img{
+	float: left;
+}
+#receipt{
+	background-color: white;
+	opacity: 0.8;
+	box-shadow: 0px 0px 100px white inset;
+	margin: auto;
+	width: 400px;
+	height: 550px;
+	border:2px dotted #822A10;
+	text-align: center;
+	border-radius: 10px;
+}
+#receipt h1{
+	font-size: 40px;
+	color: 540C15;
+	font-family: Script MT;
+	text-shadow: 0px 0px 5px brown;
+}
+
+#receipt p{margin-bottom: 0;
+	margin-top: 15px;
+	font-weight: bold;
+	font-family: Pristina;
+	font-size: 25px;
+	color:green;
+}
+#receipt p input{
+	color:;
+	font-family:Bauhaus 93; 
+	font-size:18px;
+	border:2px solid gray;
+	border-radius: 5px;
+	text-indent: 70px;
+	width: 200px;
+	height: 30px;
+}
+textarea{
+
+	resize: none;
+	width: 200px;
+	height: 50px;
+	border:2px solid gray;
+	border-radius: 5px;
+}

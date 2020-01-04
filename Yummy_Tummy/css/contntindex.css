@@ -1,0 +1,54 @@
+.order{
+	margin: 20px;
+	background-color: white;
+	//border:1px solid red;
+	width: 200px;
+	height: 250px;
+	float: left;
+	text-align: center;
+}
+.order h2{
+	color: gray;
+	font-family: cursive;
+}
+.img{
+	margin-left: 50px;
+		height: 80px;
+		width:80px;		
+		border :2px solid gray;
+		border-radius: 50%;
+}
+.order p{
+	font-size: 20px;
+	color: gray;
+}
+.text p{
+	padding: 20px;
+	color: white;
+	margin: 0;
+	font-size: 20px;
+	font-family: Arial Unicode MS;
+}
+#footer h4{
+	//border:1px solid red;
+	margin-left: 20px;
+	color: gray;
+	float: left;
+	width: auto;
+	font-size: 20px;
+}
+#footer span{
+	color: gray;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+#content h3{
+	margin: 0;
+	color: green;
+	text-align: center;
+	font-size: 30px;
+	font-family: cursive;
+	padding-top: 10px;
+	text-shadow: 3px 3px 2px green;
+}

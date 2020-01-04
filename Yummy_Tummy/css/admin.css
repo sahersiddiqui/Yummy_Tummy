@@ -1,0 +1,77 @@
+body{
+    background-image: url('../images/adminhome.jpg');
+}
+h1{
+    opacity: 0;
+    text-align: center;
+    font-family:cursive;
+    font-size: 50px;
+   margin-top: 200px;
+    color: white;
+    text-shadow:5px 5px 5px red;
+}
+#mealPlan{
+    font-family: Rage;
+    color:brown;
+    cursor:pointer;
+    text-align: center;
+    padding-top: 80px;
+    margin-top: -520px;
+    margin-left: 100px;
+    font-size: 40px;
+    height: 120px;
+    width: 200px;
+    //border:1px solid brown;
+    border-radius: 50%;
+    background:white;
+        box-shadow: 0px 0px 100px green inset;
+}
+#User{
+    color:brown;
+     background-color: white;
+    cursor:pointer;
+    text-align: center;
+     margin-top: -520px;
+    margin-left: 400px;
+    padding-top: 80px;
+     height: 120px;
+    width: 200px;
+    font-size: 40px;
+    font-family: Rage;
+
+    //border:1px solid brown;
+    box-shadow: 0px 0px 100px green inset;
+    border-radius: 50%;
+}
+#UserFeedback{
+    float: left;
+    color:brown;
+    cursor:pointer;
+    text-align: center;
+     margin-top: -520px;
+    margin-left: 700px;
+    padding-top: 80px;
+    font-family: RAge;
+    font-size: 35px;
+     height: 120px;
+    width: 200px;
+    //border:1px solid brown;
+    box-shadow: 0px 0px 100px green inset;
+    border-radius: 50%;
+    background-color: white;
+}
+#order{
+    color:brown;
+    cursor:pointer;
+    text-align: center; 
+    margin-left: 1000px;
+    padding-top: 80px;
+    font-family: RAge;
+    font-size: 40px;
+     height: 120px;
+    width: 200px;
+    //border:1px solid brown;
+    box-shadow: 0px 0px 100px green inset;
+    border-radius: 50%;
+    background-color: white;
+}

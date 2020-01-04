@@ -1,0 +1,14 @@
+#update{
+	text-align: center;
+	width: 300px;
+	background-color: white;
+	opacity: 0.8;
+}
+#update form h1{
+	font-family: cursive;
+	color: Brown;
+}
+#update form input{
+	width: 200px;
+	height: 30px;
+}
