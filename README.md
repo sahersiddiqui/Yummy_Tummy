@@ -1,2 +1,2 @@
-# Yummy_Tummy
-Its a PHP project. In this project user can order tiffin. Its a tiffin service portal..
+# Yummy Tummy
+It is a project that based on the online tiffin service. For the people who lives withou their families .
