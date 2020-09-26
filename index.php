@@ -8,12 +8,12 @@ include_once('./processes/connection.php');
     <link rel="icon" href="./assets/images/logo.png" />
     <link rel="stylesheet" href="./assets/css/index.css" type="text/css" />
     <link href="./assets/css/login.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="./assets/Font-Awesome-master/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/Font-Awesome-master/css/font-awesome.min.css" /> -->
     <link rel="stylesheet" href="./assets/css/feedbackcss.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/contntindex.css">
     <link rel="stylesheet" type="text/css" href="./assets/font/Comfortaa-VariableFont_wght.ttf">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <title> :: Welcome To Yummy Tummy ::</title>
 </head>
 
