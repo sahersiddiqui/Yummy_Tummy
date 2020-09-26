@@ -1,5 +1,6 @@
 <?php
-include_once("./userZone/header.php")
+include_once("./userZone/header.php");
+
 ?>
 <!-- Slider main container -->
 <div class="swiper-container">
@@ -49,7 +50,10 @@ include_once("./userZone/header.php")
         </p>
     </div>
 </div>
+<?php
+include_once("./userZone/login.php")
 
+?>
 
 <div id="feedbackBtn"><input type="button" value='Feedback' onclick="show(this.value);" /></div>
 <div id="FeedbackMain"></div>
@@ -106,5 +110,5 @@ include_once("./userZone/header.php")
 </div>
 
 <?php
-include_once("./userZone/footer.php")
+include_once("./userZone/footer.php");
 ?>

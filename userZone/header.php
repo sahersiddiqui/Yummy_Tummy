@@ -34,8 +34,8 @@ include_once('./processes/connection.php');
 
                     <h2>Call Us :</h2>
                     <i class="fa fa-phone-square" style="color:gray; font-size: 25px; padding: 8px; margin-left: -5%;"> 0522-236478</i>
-                    <input id="Lgn" type="button" style="width: 130px; cursor: hand;" onclick="show(this.id)" value="Log In/Sign Up" />
-
+                    <!-- <input id="Lgn" type="button" style="width: 130px; cursor: hand;" onclick="show(this.id)" value="Log In/Sign Up" /> -->
+                    <input type="button" style="width: 130px; cursor: hand;"  value="Log In/Sign Up" data-toggle="modal" data-target="#exampleModal" />
                 </div>
                 <div id="down_right">
                     <ul>
