@@ -5,19 +5,20 @@ include_once('./processes/connection.php');
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="icon" href="./assets/images/logo.png" />
     <link rel="stylesheet" href="./assets/css/index.css" type="text/css" />
     <link href="./assets/css/login.css" rel="stylesheet" type="text/css" />
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/Font-Awesome-master/css/font-awesome.min.css" /> -->
     <link rel="stylesheet" href="./assets/css/feedbackcss.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/contntindex.css">
-    <link rel="stylesheet" type="text/css" href="./assets/font/Comfortaa-VariableFont_wght.ttf">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <title> :: Welcome To Yummy Tummy ::</title>
 </head>
 
-<body id="body" onload="myslider()">
+<body id="body">
     <div id="outer">
         <div id="header">
             <div id="left">
@@ -47,8 +48,39 @@ include_once('./processes/connection.php');
                 </div>
             </div>
         </div>
-        <div id="slider">
-            <img id="imgslider" src="" height="300px" width="100%" />
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./assets/slider/image1.jpeg" height="422" width="1166"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/image2.jpg" height="422" width="1166"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/image3.jpg" height="422" width="1166"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/image4.jpg" height="422" width="1166"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/image5.jpg" height="422" width="1166"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/image6.jpg" height="422" width="1166"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/image7.jpg" height="422" width="1166"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/image8.jpg" height="422" width="1166"/>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/image9.jpg" height="422" width="1166"/>
+                </div>
+            </div>
         </div>
         <div id="content">
             <div class="order">
@@ -73,7 +105,7 @@ include_once('./processes/connection.php');
             <span class="fa fa-facebook-square"></span>
             <span class="fa fa-instagram"></span>
             <span class="fa fa-twitter"></span>
-            <h4>&copy; All Right Reserved @ <?php echo date('Y');?></h4>
+            <h4>&copy; All Right Reserved @ <?php echo date('Y'); ?></h4>
             <h4 style="margin-left: 420px;">Mail Us At :: admin@yummytummy.com</h4>
         </div>
     </div>
@@ -131,11 +163,12 @@ include_once('./processes/connection.php');
         </div>
     </div>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script text="" src="./assets/js/slidr.js"></script>
     <script src="./assets/js/popup.js"></script>
     <script src="./assets/js/login.js"></script>
     <script type="text/javascript" src="./assets/js/signup.js"></script>
-
 </body>
 
 </html>

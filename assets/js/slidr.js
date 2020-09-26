@@ -1,14 +1,24 @@
-var i=0;
-function myslider()
-{
-    
-    var arr=["image1.jpeg","image2.jpg","image3.jpg","image4.jpg","image5.jpg","image6.jpg","image7.jpg","image8.jpg","image9.jpg"];
-    
-    if(i>8)
-    
-    i=0;
-      document.getElementById('imgslider').src="./assets/slider/"+arr[i];
-      i++;
-    
-    window.setTimeout("myslider()",2000);
-}
+var mySwiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  // pagination: {
+  //   el: '.swiper-pagination',
+  // },
+
+  // Navigation arrows
+  // navigation: {
+  //   nextEl: '.swiper-button-next',
+  //   prevEl: '.swiper-button-prev',
+  // },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+
+  autoplay: true,
+  autoHeight :true
+})
