@@ -54,7 +54,6 @@ include_once("./userZone/header.php");
 include_once("./userZone/login.php")
 
 ?>
-
 <div id="feedbackBtn"><input type="button" value='Feedback' onclick="show(this.value);" /></div>
 <div id="FeedbackMain"></div>
 <div id="feedback">
@@ -73,42 +72,6 @@ include_once("./userZone/login.php")
         <input type="submit" value="Submit" name="submit" style="width: 90px; background-color: gray; color: white; " />
     </form>
 </div>
-<div id="LoginMain"></div>
-<div id="main">
-
-
-    <span onclick="hide(this.id)" id="closeLog" class="fa fa-close" style="color: black;  font-size: 18px; margin-left: 5px;"></span>
-    <input id="btnLogin" type="button" onclick="show_hide(this.id)" value="Log In" />
-    <input id="btnSignup" type="button" onclick="show_hide(this.id)" value="Sign Up" />
-    <hr style="width: 330px; margin-top: 65px; margin-bottom: 0; color: gray; border-style:dashed" />
-
-
-    <div id="login" value="login">
-        <form method="post" action="processes/loginUser.php">
-            <h1>Log In </h1>
-            <p> <span class="fa fa-envelope"></span><input type="email" placeholder="Enter Your Email" name="email" /></p>
-            <p><span class="fa fa-lock"></span><input style="margin-left: 30px;" type="password" placeholder="Enter Your Password" name="pass" /></p>
-
-            <input style="text-indent:0px; width: 100px; margin-left: 50px;" type="reset" Value="Reset" />
-            <input style="text-indent:0px; width: 100px; margin-left: 80px;" name="login" type="submit" Value="Log In" />
-        </form>
-    </div>
-    <div id="signup" value="signup">
-        <form method="post" action="processes/SignupData.php">
-            <h1>Sign Up</h1>
-
-            <p><span class="fa fa-user-circle-o"></span><input type="text" placeholder="Enter Your Name" name="name" required /></p>
-            <p><span class="fa fa-phone-square"></span><input type="number" placeholder="Enter Your Mobile No" name="mobile" required /></p>
-            <p><span class="fa fa-envelope-o"></span><input type="email" placeholder="Enter Your Email" name="email" required /></p>
-            <p><span class="fa fa-lock"></span><input style="margin-left: 28px;" type="password" placeholder="Enter Your Password" name="pass" required /></p>
-
-            <input id="check" onclick="validate()" style="width:20px; margin-top: 18px;margin-left: 40px; padding: 0; position:absolute;" type="checkbox" />
-            <p>I accept the <a href="#">'Terms and Conditions'</a>.</p>
-            <p><input type="submit" id="submit" value="Sign Up" name="SubmitSignup" disabled="disabled" style="width: 100px; text-indent: 0;cursor: pointer;" /></p>
-        </form>
-    </div>
-</div>
-
 <?php
 include_once("./userZone/footer.php");
 ?>
