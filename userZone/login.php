@@ -25,6 +25,10 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
+                <div>
+                    <span>Not A Member? Create Account here.</span>
+                    <button type="button" class="btn btn-primary">Signup</button>
+                </div>
                 <!-- <div id="login">
                     <form method="post" action="processes/loginUser.php">
                         <div>

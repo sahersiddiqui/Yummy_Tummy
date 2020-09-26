@@ -20,5 +20,5 @@ var mySwiper = new Swiper('.swiper-container', {
   },
 
   autoplay: true,
-  autoHeight :true
+  // autoHeight :true
 })

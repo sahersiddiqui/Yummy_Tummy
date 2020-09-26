@@ -1,6 +1,6 @@
 <?php
 $host='localhost';
-$username='root';
+$username='phpdb';
 $password='root';
 $dbname='hungrypet';
 $conn=@mysqli_connect($host,$username,$password,$dbname);
