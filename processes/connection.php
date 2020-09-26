@@ -1,7 +1,7 @@
 <?php
 $host='localhost';
 $username='root';
-$password='';
+$password='root';
 $dbname='hungrypet';
 $conn=@mysqli_connect($host,$username,$password,$dbname);
 if(!$conn)

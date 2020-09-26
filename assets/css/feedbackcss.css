@@ -35,7 +35,7 @@
     text-align: center;
     color:gray;
     margin:0;
-    font-family:fantasy;
+    fantasy;
 }
 #feedback textarea{
     resize: none;

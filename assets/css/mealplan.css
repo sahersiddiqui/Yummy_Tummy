@@ -21,7 +21,7 @@ background-size: cover}
     color: brown;
 }
 .menu h2{
-    font-family: Tempus Sans ITC;
+     Tempus Sans ITC;
     padding: 10px;
     font-size: 30px;
     margin: 0;
@@ -36,7 +36,7 @@ background-size: cover}
     background-color: brown;
     border: 0;
     border-radius:10px;
-    font-family:Segoe Print;
+    Segoe Print;
     font-size: 18px;
     margin-top: 20px;
     clear: both;
@@ -51,13 +51,13 @@ background-size: cover}
 }
 .standard h3{
     color:  green;
-    font-family: Pristina;
+     Pristina;
     font-size:25px;
     margin:0; 
 
 }
 .standard p{
-    font-family: Script MT;
+     Script MT;
     font-size:20px;
     margin: 0;
 }
@@ -71,12 +71,12 @@ background-size: cover}
 }
 .mini h3{
     color:  green;
-    font-family:Pristina ;
+    Pristina ;
     font-size:25px;
     margin:0;
     }
     .mini p{
-    font-family: Script MT;
+     Script MT;
     font-size:20px;
     margin: 0;
 }

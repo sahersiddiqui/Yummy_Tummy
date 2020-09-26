@@ -7,7 +7,7 @@ function myslider()
     if(i>8)
     
     i=0;
-      document.getElementById('imgslider').src="../slider/"+arr[i];
+      document.getElementById('imgslider').src="./assets/slider/"+arr[i];
       i++;
     
     window.setTimeout("myslider()",2000);

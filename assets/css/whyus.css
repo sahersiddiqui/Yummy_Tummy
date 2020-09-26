@@ -12,7 +12,7 @@
 	font-size: 30px;
 	color: brown;
 	text-shadow: 2px 2px 5px brown;
-	font-family: cursive;
+	
 
 }
 #content > p{
@@ -20,7 +20,7 @@
 	text-indent: 100px;
 	opacity: 0.8;
 	background-color: white;
-	font-family: Trebuchet MS;
+	 Trebuchet MS;
 	text-align: justify;
 	padding: 30px;
 	color: green;
@@ -49,5 +49,5 @@
 	font-size: 25px;
 	margin: 10px  10px 0px 10px;
 	color: gray;
-	font-family:  Trebuchet MS;
+	  Trebuchet MS;
 }

@@ -26,7 +26,7 @@ $row=mysqli_fetch_array($result);
 	<p>Deleivery Date :: <input type="text" name="Rdate" value="<?php echo $row['StartDate'];?>"></p>
 	<p><span style="margin-left: 60px; margin-top: -20px;">Address ::</span> <textarea col="20" row="3" name="Radd"><?php echo$row['Address'] ?></textarea></p>
 	<p><span style="margin-left: 40px;">Total Cash :: </span><input type="text" value="Rs. <?php echo $row['Amount'];?>/-"/></p>
-	<p><input style="width: auto;  height: 40px; font-family: Cambria Math; font-size: 20px;  text-indent: 0;" type="button" name="Print" onclick="print()" id="print" value="Print Receipt"></p>
+	<p><input style="width: auto;  height: 40px;  Cambria Math; font-size: 20px;  text-indent: 0;" type="button" name="Print" onclick="print()" id="print" value="Print Receipt"></p>
 </div>	
 </div>
 </body>
