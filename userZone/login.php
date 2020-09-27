@@ -9,7 +9,6 @@
             </div>
             <div class="modal-body">
                 <form method="post" action="processes/loginUser.php">
-
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">

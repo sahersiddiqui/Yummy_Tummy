@@ -11,6 +11,7 @@ include_once('./processes/connection.php');
     <link rel="stylesheet" type="text/css" href="./assets/css/login.css" />
     <link rel="stylesheet" href="./assets/css/feedbackcss.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/contntindex.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/mealplan.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
@@ -21,25 +22,25 @@ include_once('./processes/connection.php');
 <body>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-12">
                 <header>
                     <div class="row">
 
-                        <div  class="col logo_section">
+                        <div  class="col-lg-3 col-sm-4 logo_section">
                             <img src="./assets/images/logo.png" height="100px" width="100px" />
                             <h5 class="site_title">
                                 Yummy Tummy
                             </h5>
                         </div>
-                        <div class="col-9">
+                        <div class="col-lg-9 col-sm-8">
                             <div class="row">
                                 <div class="col-12 call_info_section">
                                     <span>Call Us : <i class="fa fa-phone-square"> 0522-236478</i></span>
                                     <!-- <input id="Lgn" type="button" style="width: 130px; cursor: hand;" onclick="show(this.id)" value="Log In/Sign Up" /> -->
                                     <button  class="btn btn-primary pull-right" type="button"  data-toggle="modal" data-target="#exampleModal">Log In/Sign Up</button>
-                                    <button  class="btn btn-primary pull-right" type="button"  data-toggle="modal" data-target="#exampleModal">Feedback</button>
+                                    <button  class="btn btn-primary pull-right" type="button"  data-toggle="modal" data-target="#feedbackModal">Feedback</button>
                                 </div>
-                                <div class="col-12 nav_bar" >
+                                <div class="col-lg-12  nav_bar" >
                                     <ul>
                                         <li onclick="location.href='index.php'">Home</li>
                                         <li onclick="location.href='MealPlan.php'">Meal Plan</li>
